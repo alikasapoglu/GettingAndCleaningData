@@ -85,7 +85,7 @@ df_y[,1] <- df_activity[df_y[,1],2]
 ```
 
 #### 4. Label variable names
-```{a}
+```{r include=FALSE}
 names(df_x_chosen) <- features[f_index,2] 
 names(df_subj) <- "subjectID"
 names(df_y) <- "activity"
@@ -100,12 +100,12 @@ names(df) <- gsub('^f',"freq_",names(df))
 names(df) <- gsub('\\()',"",names(df))
 
 str(df)
-```{.R} 
+``` 
 
 #### 5. Create new data set for the average of each variable for each activity and each subject
 ```{a}
 new_df <-aggregate(. ~ subjectID + activity, df, mean)
-```{.R} 
+``` 
 
 #### Save to file
 ```{a}
