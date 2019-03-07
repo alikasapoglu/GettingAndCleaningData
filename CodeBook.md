@@ -85,7 +85,7 @@ df_y[,1] <- df_activity[df_y[,1],2]
 ```
 
 #### 4. Label variable names
-```{r include=FALSE}
+```{r include=TRUE}
 names(df_x_chosen) <- features[f_index,2] 
 names(df_subj) <- "subjectID"
 names(df_y) <- "activity"
