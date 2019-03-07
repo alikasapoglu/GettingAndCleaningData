@@ -28,7 +28,11 @@ Variable name    | Description
 -----------------|------------
 subjectID        | ID 
 activity         | Name of the activity
-Other Variables  | freq for frequence, Mag for Magnitude etc... There are too much variables, I'm showing here I can do it :) 
+Other Variables  | freq for frequence, Mag for Magnitude etc... 
+
+
+There are too many variables, it's just for studying and I'm showing here I can do it!   
+So no need to lose more time with it. Cheers! 
 
 
 
